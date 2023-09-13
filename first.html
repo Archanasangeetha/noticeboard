@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Notice Board</title>
+  <link rel="stylesheet" href="first.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Online Notice Board</h1>
+    <form id="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+      <button type="submit">Login</button>
+    </form>
+    <div id="notice-board" class="hidden">
+      <h2>Welcome, <span id="user-display"></span>!</h2>
+      <h3>Post a Notice</h3>
+      <textarea id="notice-text" rows="4" cols="50" placeholder="Enter your notice here"></textarea>
+      <button id="post-notice">Post Notice</button>
+      <div id="notices">
+        <h3>Notices</h3>
+
+        <ul id="notice-list"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="first.js"></script>
+</body>
+</html>

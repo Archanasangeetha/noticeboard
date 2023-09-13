@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    
+        background-color: #c6c0ba;
+        width: 120vmin;
+        height: 60vmin;
+        max-width: 100em;
+        padding: 0em 0em;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        border-radius: 0.62em;
+        box-shadow: 0 1.2em 2.5em rgba(0, 21, 44, 0.18);
+    
+  }
+  
+  .hidden {
+    display: none;
+  }
+  .notices{
+    padding: 0 0 1 0;
+  }
